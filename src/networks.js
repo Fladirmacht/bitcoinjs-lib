@@ -33,5 +33,15 @@ module.exports = {
     pubKeyHash: 0x30,
     scriptHash: 0x32,
     wif: 0xb0
-  }
+  },
+    visiocoin: {
+        messagePrefix: '\x19Visio Signed Message:\n',
+        bip32: {
+            public: 0x0488c21e,
+            private: 0x0488b2dd
+        },
+        pubKeyHash: 0x47,
+        scriptHash: 0x7d,
+        wif: 0xbf
+    }
 }
